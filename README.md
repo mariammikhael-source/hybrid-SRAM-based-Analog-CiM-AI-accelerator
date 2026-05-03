@@ -25,15 +25,17 @@ Implementation of C-2C capacitor ladder for linear MAC operations
 Analysis of hardware non-idealities in UMC 65nm technology
 Investigation of inter-array communication losses in scalable systems
 Development of a hardware-aware AI training framework
+
 System Architecture ⚙️
-1. Compute-in-Memory (CiM) Core
+
+Compute-in-Memory (CiM) Core
 SRAM-based architecture for reliability and maturity
 Charge-domain computation using capacitive coupling
 Passive charge accumulation for energy efficiency
-2. C-2C Capacitor Ladder
+C-2C Capacitor Ladder
 Enables binary-weighted multiply-accumulate (MAC) operations
 Improves linearity and scalability
-3. Array-Level Design
+Array-Level Design
 Scalable 8×8 / 16×16 CiM arrays
 Passive interconnection for accumulation
 Integrated DACs and ADCs
@@ -46,6 +48,7 @@ Focus areas:
 Inter-array communication
 Charge-domain signal propagation
 Impact of parasitics and mismatch
+
 Hardware Implementation 🧩
 
 Technology
@@ -56,9 +59,10 @@ Parasitic capacitance
 Capacitor mismatch
 Thermal noise (kT/C)
 Signal degradation
+
 AI Hardware-Software Co-Design 🤖
 
-Workflow:
+Workflow
 Hardware Noise Profiling
 Noise-Aware Training (PyTorch)
 Model Validation
